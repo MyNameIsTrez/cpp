@@ -1,0 +1,11 @@
+*
+!*/
+!Makefile
+!*.cpp
+!*.hpp
+!.gitignore
+
+!ab.txt
+!axaxb.txt
+!empty.txt
+!hella_warld.txt
