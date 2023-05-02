@@ -1,0 +1,38 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	{
+		"name": "ex01/zombie_horde",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		// "type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex01/zombie_horde",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex01",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex04/losers",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		// "type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex04/losers",
+		"args": [
+			"/Users/sbos/Documents/Programming/Projects/cpp/01/ex04/tests/xxb.txt",
+			"aa",
+			"x",
+
+			// "/Users/sbos/Documents/Programming/Projects/cpp/01/ex04/tests/ab.txt",
+			// "aa",
+			// "a",
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex04",
+		"internalConsoleOptions": "neverOpen"
+	},
+	]
+}

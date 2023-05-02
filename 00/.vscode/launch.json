@@ -1,0 +1,33 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	{
+		"name": "ex00/megaphone",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		// "type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex00/megaphone",
+		"args": [
+			"a",
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex00",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex02/account",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		// "type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex02/account",
+		"args": [
+			"a",
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex02",
+		"internalConsoleOptions": "neverOpen"
+	},
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	{
+		"name": "ex01",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		// "type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex01/useful",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex01",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex02",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		// "type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex02/operators",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex02",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex03",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		// "type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex03/bsp",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex03",
+		"internalConsoleOptions": "neverOpen"
+	},
+	]
+}
