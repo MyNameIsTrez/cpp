@@ -1,0 +1,10 @@
+*
+!*/
+!Makefile
+!*.cpp
+!*.hpp
+!ex00/data.csv
+!.gitignore
+!ex02/PmergeMe.py
+
+test.cpp
