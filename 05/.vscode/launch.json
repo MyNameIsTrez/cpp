@@ -1,0 +1,53 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	{
+		"name": "ex00",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex00/bureaucrat",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex00",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex01",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex01/form",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex01",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex02",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex02/execution",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex02",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex03",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex03/intern",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex03",
+		"internalConsoleOptions": "neverOpen"
+	},
+	]
+}

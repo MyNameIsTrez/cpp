@@ -1,0 +1,66 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	{
+		"name": "ex00 input.txt",
+		"type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex00/btc",
+		"args": [
+			"input.txt",
+		],
+		"cwd": "${workspaceFolder}/ex00",
+		"preLaunchTask": "Build ex00",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex00 invalid path",
+		"type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex00/btc",
+		"args": [
+			"input.tx",
+		],
+		"cwd": "${workspaceFolder}/ex00",
+		"preLaunchTask": "Build ex00",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex00 tests",
+		"type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex00/btc",
+		"cwd": "${workspaceFolder}/ex00",
+		"preLaunchTask": "Build tests ex00",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex01 tests",
+		"type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex01/RPN",
+		"cwd": "${workspaceFolder}/ex01",
+		"preLaunchTask": "Build tests ex01",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex02 args",
+		"type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex02/PmergeMe",
+		"args": [],
+		"cwd": "${workspaceFolder}/ex02",
+		"preLaunchTask": "Build ex02",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex02 tests",
+		"type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex02/PmergeMe",
+		"cwd": "${workspaceFolder}/ex02",
+		"preLaunchTask": "Build tests ex02",
+		"internalConsoleOptions": "neverOpen"
+	},
+	]
+}

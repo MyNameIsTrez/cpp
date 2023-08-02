@@ -1,0 +1,55 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build ex00",
+			"type": "shell",
+			"command": "make",
+			"args": [ "-C", "ex00", "DEBUG=1" ],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Build ex01",
+			"type": "shell",
+			"command": "make",
+			"args": [ "-C", "ex01", "DEBUG=1" ],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Build ex01 coverage",
+			"type": "shell",
+			"command": "make",
+			"args": [ "-C", "ex01", "coverage", "DEBUG=1" ],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Build ex02",
+			"type": "shell",
+			"command": "make",
+			"args": [ "-C", "ex02", "DEBUG=1" ],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Build ex02 coverage",
+			"type": "shell",
+			"command": "make",
+			"args": [ "-C", "ex02", "coverage", "DEBUG=1" ],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+	]
+}

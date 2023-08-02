@@ -2,6 +2,9 @@
 !*.cpp
 !*.hpp
 !.gitignore
+!.vscode/launch.json
+!.vscode/tasks.json
+!subject.pdf
 
 !ab.txt
 !axaxb.txt

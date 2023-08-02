@@ -1,0 +1,29 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	{
+		"name": "ex00",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex00/static",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex00",
+		"internalConsoleOptions": "neverOpen"
+	},
+	{
+		"name": "ex01",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex01/serialize",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex01",
+		"internalConsoleOptions": "neverOpen"
+	},
+	]
+}

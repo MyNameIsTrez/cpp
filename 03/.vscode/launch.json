@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	{
+		"name": "ex00",
+		"type": "cppdbg",
+		"MIMode": "lldb",
+		// "type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/ex00/claptrap",
+		"args": [
+		],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "Build ex00",
+		"internalConsoleOptions": "neverOpen"
+	},
+	]
+}
